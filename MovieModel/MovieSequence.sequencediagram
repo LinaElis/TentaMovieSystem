@@ -1,0 +1,477 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SequenceDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm11="http://schemas.microsoft.com/dsltools/UseCaseModel" dslVersion="1.0.0.0" Id="f26b8e29-e0db-4dbe-a318-6da45e7f4df4" name="MovieSequence" linkedPackageId="19304eac-6c98-4977-91f3-cbe0dd335deb" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner">
+  <appliedStereotypesInternal>
+    <stereotypeInstance Id="8883a32c-b4c0-42dd-a18c-6627adcc7ec7" name="namespace" profile="CSharpProfile">
+      <elementDefinition Id="720c8003-35da-4f69-8096-9ef30ad93f29" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="863ad8a9-2b39-419b-9a6a-97da25381f05">
+          <propertyInstance Id="a2a2d38b-7039-427d-82b4-96577c98b3a3" name="BaseName">
+            <elementDefinition Id="8864f29c-d4d6-4b12-a597-8aca70a9d207" />
+          </propertyInstance>
+          <elementDefinition Id="6b611832-17c8-4746-98a5-a3607e6c98a3" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="98a0fd2a-a951-41c9-aa1d-ed9cb283deef">
+          <propertyInstance Id="40c673b2-7911-4148-8a62-5764dc60272e" name="ClrAttributes">
+            <elementDefinition Id="3acc9b77-d7c1-4cba-b240-63e8dda8e55f" />
+          </propertyInstance>
+          <elementDefinition Id="8ebb2800-7766-49bc-afb3-5e488eb0e6d0" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="26992aa1-8d93-42ba-978d-518af6d82e82">
+          <propertyInstance Id="20fac33b-cec3-4b11-a182-b93ee0d4f500" name="Usings">
+            <elementDefinition Id="32cff5f3-ca2d-4010-8721-7542471e0554" />
+          </propertyInstance>
+          <elementDefinition Id="445f2e55-b28e-40da-98d0-bc797779fd68" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+    <stereotypeInstance Id="a169d3c0-4794-40e5-87c0-4a5cdafea483" name="TextTemplateBindings" profile="TextTemplateBindings">
+      <elementDefinition Id="ddd8291b-5af5-4f2e-a29f-a97d07654daa" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="cf5fd06a-ee83-45ef-aea7-fbcf37fa3d94">
+          <propertyInstance Id="593807e0-fa1b-467b-aa05-407af2f7a9b9" name="Alias" value="ClassTemplate|EnumTemplate|InterfaceTemplate|StructTemplate">
+            <elementDefinition Id="d25866de-382a-4e4b-b7c3-d677d984eb13" />
+          </propertyInstance>
+          <elementDefinition Id="a3890eab-210e-41be-ad9e-4b78be3d0b51" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="5a46868b-9295-4227-861c-383adc8e4e6a">
+          <propertyInstance Id="e610cdd3-1c4f-487e-9763-6243e9d54107" name="TemplateFilePath" value="ClassTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4|EnumTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4|InterfaceTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4|StructTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4">
+            <elementDefinition Id="b9d8a529-a9c5-4995-a56f-a5d200d2710e" />
+          </propertyInstance>
+          <elementDefinition Id="e01ddf31-b430-414e-b62f-21b732ae8245" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="933d8840-c80c-4147-a809-4f7c39851aeb">
+          <propertyInstance Id="4bf19be4-a780-4702-8933-ca9a93d83b7e" name="ProjectPath" value="ClassTemplate=..\MovieModelLib\MovieModelLib.csproj|EnumTemplate=..\MovieModelLib\MovieModelLib.csproj|InterfaceTemplate=..\MovieModelLib\MovieModelLib.csproj|StructTemplate=..\MovieModelLib\MovieModelLib.csproj">
+            <elementDefinition Id="8d6ba580-e6ef-41a9-92b8-193f8e80faf4" />
+          </propertyInstance>
+          <elementDefinition Id="793ff0ba-35fb-4ef4-9c35-fbe59e369311" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="6f42ca37-4378-4a67-ae8e-89b9ece2c461">
+          <propertyInstance Id="b5323e81-6f3f-414e-97f3-7aecf06b21cc" name="TargetDirectory" value="ClassTemplate=GeneratedCode\{PackageStructure}|EnumTemplate=GeneratedCode\{PackageStructure}|InterfaceTemplate=GeneratedCode\{PackageStructure}|StructTemplate=GeneratedCode\{PackageStructure}">
+            <elementDefinition Id="d8cc4168-f097-4fb5-97dc-81e138f19743" />
+          </propertyInstance>
+          <elementDefinition Id="38933ddb-7542-4499-b536-3f4fe88a6510" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="e3067153-e5ac-400a-b4a7-8ead3c31e1ed">
+          <propertyInstance Id="23260c99-9e00-4fc5-ab5b-d305ced0bee0" name="TargetName" value="ClassTemplate={Name}|EnumTemplate={Name}|InterfaceTemplate={Name}|StructTemplate={Name}">
+            <elementDefinition Id="7ba9586e-2054-47eb-8f84-36287941319f" />
+          </propertyInstance>
+          <elementDefinition Id="db690e22-c28f-40de-b8da-8b3b8d563523" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="c646fd66-c779-4a68-802c-8d43bc113016">
+          <propertyInstance Id="45b598f9-e49a-453d-9780-a9a29bb46ff5" name="Overwrite" value="ClassTemplate=True|EnumTemplate=True|InterfaceTemplate=True|StructTemplate=True">
+            <elementDefinition Id="13e00075-52e1-401c-b7ae-fbfddd04af6d" />
+          </propertyInstance>
+          <elementDefinition Id="ac4e7473-c8dc-403a-ac2e-939600ad459e" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="d247dcf1-1439-4747-9fe7-ec1552cbde0d">
+          <propertyInstance Id="35087113-5a46-4b47-a410-bbf628aacc60" name="Parameters">
+            <elementDefinition Id="25c1510e-9632-4e65-b3c1-3659086cfea9" />
+          </propertyInstance>
+          <elementDefinition Id="f6f82227-1ae9-43d5-8935-7c4b98fb7fe3" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+  </appliedStereotypesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <interaction Id="0d5be3d0-5650-40ed-9813-e96ecd441cf8" name="MovieSequence" collapseFragmentsFlag="false" isActiveClass="false" isAbstract="false" isLeaf="false" isReentrant="false">
+        <elementDefinition Id="2ae9270a-dfab-44c9-a51b-b22a5d927db6" />
+        <fragments>
+          <behaviorExecutionSpecification Id="fcc02f63-85bc-433f-b9f2-598d11f30df1" name="BehaviorExecutionSpecification1">
+            <elementDefinition Id="2bf2295d-1f87-46a0-b283-1434b6db7d46" />
+            <coveredLifelines>
+              <lifelineMoniker Id="75c159e4-f48a-45e2-af1b-eea22767602a" LastKnownName="MovieFacade" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="d1cb661d-db16-4c86-904a-939835185539" LastKnownName="ExecutionOccurrenceSpecification2" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="6227b34e-a42a-4fa3-9e26-dafece3d71c0" LastKnownName="ExecutionOccurrenceSpecification1" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="d6a3d831-11c3-458d-b779-62c87c360bc0" LastKnownName="MessageOccurrenceSpecification2" />
+              <messageOccurrenceSpecificationMoniker Id="7f583569-ae26-432d-abbb-18f48f4c3ec7" LastKnownName="MessageOccurrenceSpecification5" />
+              <messageOccurrenceSpecificationMoniker Id="50027c40-6a64-4651-a0e0-8d981198d896" LastKnownName="MessageOccurrenceSpecification8" />
+              <messageOccurrenceSpecificationMoniker Id="ad6a821f-7b54-4f95-a73e-aff133520121" LastKnownName="MessageOccurrenceSpecification9" />
+              <messageOccurrenceSpecificationMoniker Id="e0120635-c677-4478-ba92-d4f64f686a86" LastKnownName="MessageOccurrenceSpecification12" />
+              <messageOccurrenceSpecificationMoniker Id="cdafb328-f53d-4e88-a247-6675aae56855" LastKnownName="MessageOccurrenceSpecification3" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="6227b34e-a42a-4fa3-9e26-dafece3d71c0" name="ExecutionOccurrenceSpecification1">
+            <elementDefinition Id="771b4c24-4935-4b31-a6de-e93072ddcb19" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="82cf29e0-66f2-48aa-80f4-2d38b0ad1ced" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="75c159e4-f48a-45e2-af1b-eea22767602a" LastKnownName="MovieFacade" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="cef86ba0-0860-48a7-99f8-8a8037dd74c5" name="MessageOccurrenceSpecification1">
+            <elementDefinition Id="c5aabaac-7c56-4d45-9474-45abe1469795" />
+            <covered>
+              <lifelineMoniker Id="41ccdb3f-a559-4274-8246-0386456d2ef8" LastKnownName="Consumer" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="d6a3d831-11c3-458d-b779-62c87c360bc0" name="MessageOccurrenceSpecification2">
+            <elementDefinition Id="b2f3adbd-855a-4bd5-bae0-8ab14f338859" />
+            <covered>
+              <lifelineMoniker Id="75c159e4-f48a-45e2-af1b-eea22767602a" LastKnownName="MovieFacade" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="8873acb1-4190-4c8a-8f1e-c77e8f0e5426" name="BehaviorExecutionSpecification2">
+            <elementDefinition Id="f5d1d28a-9fdd-45df-b99a-86770003261a" />
+            <coveredLifelines>
+              <lifelineMoniker Id="aab91070-2ada-4706-bd0d-9d3387c47699" LastKnownName="PlayerFactory" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="3f2a51e2-33eb-4145-b56b-46c86b2b394e" LastKnownName="ExecutionOccurrenceSpecification4" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="0e566ce7-ad07-47e4-93ca-d4e9f5d6a785" LastKnownName="ExecutionOccurrenceSpecification3" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="3bbdcd90-dac1-4357-9eef-f257dcfe6163" LastKnownName="MessageOccurrenceSpecification6" />
+              <messageOccurrenceSpecificationMoniker Id="87cea81d-6a23-4cfa-ab44-2cd934f98ef8" LastKnownName="MessageOccurrenceSpecification7" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="0e566ce7-ad07-47e4-93ca-d4e9f5d6a785" name="ExecutionOccurrenceSpecification3">
+            <elementDefinition Id="fe82a382-f823-4a3b-86e5-f5f8e748df04" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="5639fffa-8502-4fd5-be51-e4c46e1a4c96" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="aab91070-2ada-4706-bd0d-9d3387c47699" LastKnownName="PlayerFactory" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="7f583569-ae26-432d-abbb-18f48f4c3ec7" name="MessageOccurrenceSpecification5">
+            <elementDefinition Id="a3c23283-c42d-4f0b-a24d-57a613a77807" />
+            <covered>
+              <lifelineMoniker Id="75c159e4-f48a-45e2-af1b-eea22767602a" LastKnownName="MovieFacade" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="3bbdcd90-dac1-4357-9eef-f257dcfe6163" name="MessageOccurrenceSpecification6">
+            <elementDefinition Id="79f9dc55-7e3c-4fc8-8cb3-6ef9a7e2fe6d" />
+            <covered>
+              <lifelineMoniker Id="aab91070-2ada-4706-bd0d-9d3387c47699" LastKnownName="PlayerFactory" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="87cea81d-6a23-4cfa-ab44-2cd934f98ef8" name="MessageOccurrenceSpecification7">
+            <elementDefinition Id="704241fb-d303-4f93-bb3e-95e0273df481" />
+            <covered>
+              <lifelineMoniker Id="aab91070-2ada-4706-bd0d-9d3387c47699" LastKnownName="PlayerFactory" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="50027c40-6a64-4651-a0e0-8d981198d896" name="MessageOccurrenceSpecification8">
+            <elementDefinition Id="1e26891d-34aa-4c1a-99f9-9ef9a921bd0c" />
+            <covered>
+              <lifelineMoniker Id="75c159e4-f48a-45e2-af1b-eea22767602a" LastKnownName="MovieFacade" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="3f2a51e2-33eb-4145-b56b-46c86b2b394e" name="ExecutionOccurrenceSpecification4">
+            <elementDefinition Id="13dce6b6-938b-461c-bbe2-e39d059360a2" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="e37dfa76-d2b9-4524-b4ab-ba1daa9dd7b3" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="aab91070-2ada-4706-bd0d-9d3387c47699" LastKnownName="PlayerFactory" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="3422c150-4fca-4be4-a07c-fe7132a5fd46" name="BehaviorExecutionSpecification3">
+            <elementDefinition Id="f417a56f-67ad-47fd-899d-4c3401c53e7d" />
+            <coveredLifelines>
+              <lifelineMoniker Id="8e1e005e-1456-4b7d-a0d4-5219c62a80fc" LastKnownName="IPlayer" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="cd2a1c0c-338b-4758-ac7d-f75c691c88c5" LastKnownName="ExecutionOccurrenceSpecification6" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="4a3d6435-7f1a-409f-857b-972d201ae63b" LastKnownName="ExecutionOccurrenceSpecification5" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="5be4d253-754b-4a60-86f3-138e9358139d" LastKnownName="MessageOccurrenceSpecification10" />
+              <messageOccurrenceSpecificationMoniker Id="3b50980c-520b-40d1-aff2-67c93ba23340" LastKnownName="MessageOccurrenceSpecification11" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="4a3d6435-7f1a-409f-857b-972d201ae63b" name="ExecutionOccurrenceSpecification5">
+            <elementDefinition Id="f5ab4ce3-e268-4a8d-ae69-54246bf4c4c2" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="19508749-ae31-4b24-9d98-c1cd5d7a921b" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="8e1e005e-1456-4b7d-a0d4-5219c62a80fc" LastKnownName="IPlayer" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="ad6a821f-7b54-4f95-a73e-aff133520121" name="MessageOccurrenceSpecification9">
+            <elementDefinition Id="13787023-8df6-4d8d-a7c2-e38ab3e1bfad" />
+            <covered>
+              <lifelineMoniker Id="75c159e4-f48a-45e2-af1b-eea22767602a" LastKnownName="MovieFacade" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="5be4d253-754b-4a60-86f3-138e9358139d" name="MessageOccurrenceSpecification10">
+            <elementDefinition Id="9dc55f41-3b62-4eef-bde9-cd5be6991cef" />
+            <covered>
+              <lifelineMoniker Id="8e1e005e-1456-4b7d-a0d4-5219c62a80fc" LastKnownName="IPlayer" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="3b50980c-520b-40d1-aff2-67c93ba23340" name="MessageOccurrenceSpecification11">
+            <elementDefinition Id="6d595e02-9d4b-4408-8265-a65152c0ca57" />
+            <covered>
+              <lifelineMoniker Id="8e1e005e-1456-4b7d-a0d4-5219c62a80fc" LastKnownName="IPlayer" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="e0120635-c677-4478-ba92-d4f64f686a86" name="MessageOccurrenceSpecification12">
+            <elementDefinition Id="fd8f384d-4c1d-48d7-b49e-6c1098257086" />
+            <covered>
+              <lifelineMoniker Id="75c159e4-f48a-45e2-af1b-eea22767602a" LastKnownName="MovieFacade" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="cd2a1c0c-338b-4758-ac7d-f75c691c88c5" name="ExecutionOccurrenceSpecification6">
+            <elementDefinition Id="d5e4796e-3458-4fae-9d09-060a7279f940" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="38a59d0d-d1ec-4856-969a-f8a848d25864" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="8e1e005e-1456-4b7d-a0d4-5219c62a80fc" LastKnownName="IPlayer" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="cdafb328-f53d-4e88-a247-6675aae56855" name="MessageOccurrenceSpecification3">
+            <elementDefinition Id="3bc68dfa-2691-4b8e-8e24-98b23f8059e9" />
+            <covered>
+              <lifelineMoniker Id="75c159e4-f48a-45e2-af1b-eea22767602a" LastKnownName="MovieFacade" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="b7ecb6e4-0402-4817-9548-b107ffebd46e" name="MessageOccurrenceSpecification4">
+            <elementDefinition Id="86478eb8-5570-422f-93d3-362e70c58c6a" />
+            <covered>
+              <lifelineMoniker Id="41ccdb3f-a559-4274-8246-0386456d2ef8" LastKnownName="Consumer" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="d1cb661d-db16-4c86-904a-939835185539" name="ExecutionOccurrenceSpecification2">
+            <elementDefinition Id="7b2039ec-ceaa-4873-96c8-7e85c27fca63" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="a7ba6148-3880-4a7e-a84e-2d9471bd5045" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="75c159e4-f48a-45e2-af1b-eea22767602a" LastKnownName="MovieFacade" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline Id="41ccdb3f-a559-4274-8246-0386456d2ef8" name="Consumer" isActor="true" lifelineDisplayName="Consumer">
+            <elementDefinition Id="be7a3b96-b1ab-40eb-b83c-467d24114c1e" />
+            <represents>
+              <propertyMoniker Id="3e1e65a2-aa57-433e-83a3-6d6caa65276f" />
+            </represents>
+            <topLevelOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="cef86ba0-0860-48a7-99f8-8a8037dd74c5" LastKnownName="MessageOccurrenceSpecification1" />
+              <messageOccurrenceSpecificationMoniker Id="b7ecb6e4-0402-4817-9548-b107ffebd46e" LastKnownName="MessageOccurrenceSpecification4" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline Id="75c159e4-f48a-45e2-af1b-eea22767602a" name="MovieFacade" isActor="false" lifelineDisplayName="MovieFacade">
+            <elementDefinition Id="a4a8f9d2-bf15-4aaa-b437-9a23c3b87166" />
+            <represents>
+              <propertyMoniker Id="12642513-d82c-406b-9fa3-88f5850e77e1" />
+            </represents>
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker Id="6227b34e-a42a-4fa3-9e26-dafece3d71c0" LastKnownName="ExecutionOccurrenceSpecification1" />
+              <executionOccurrenceSpecificationMoniker Id="d1cb661d-db16-4c86-904a-939835185539" LastKnownName="ExecutionOccurrenceSpecification2" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline Id="aab91070-2ada-4706-bd0d-9d3387c47699" name="PlayerFactory" isActor="false" lifelineDisplayName="PlayerFactory">
+            <elementDefinition Id="de65472d-db1b-4c05-a11e-9d0c805b0b1f" />
+            <represents>
+              <propertyMoniker Id="4488c5f4-c458-4c45-8d68-8cbf6b6755a0" />
+            </represents>
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker Id="0e566ce7-ad07-47e4-93ca-d4e9f5d6a785" LastKnownName="ExecutionOccurrenceSpecification3" />
+              <executionOccurrenceSpecificationMoniker Id="3f2a51e2-33eb-4145-b56b-46c86b2b394e" LastKnownName="ExecutionOccurrenceSpecification4" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline Id="8e1e005e-1456-4b7d-a0d4-5219c62a80fc" name="IPlayer" isActor="false" lifelineDisplayName="IPlayer">
+            <elementDefinition Id="1693ab36-cf34-4123-af57-58679961791c" />
+            <represents>
+              <propertyMoniker Id="957cda99-a836-4dec-b9a0-75b45afb5dce" />
+            </represents>
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker Id="4a3d6435-7f1a-409f-857b-972d201ae63b" LastKnownName="ExecutionOccurrenceSpecification5" />
+              <executionOccurrenceSpecificationMoniker Id="cd2a1c0c-338b-4758-ac7d-f75c691c88c5" LastKnownName="ExecutionOccurrenceSpecification6" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message Id="65d407db-2226-4587-9648-cf84ff071742" name="Play(&quot;Netflix&quot;)" messageKind="Complete" messageSort="SynchCall" createSelfMessage="false">
+            <elementDefinition Id="b1cff12f-9fbe-408f-a7d5-d13019ecdeb9" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="cef86ba0-0860-48a7-99f8-8a8037dd74c5" LastKnownName="MessageOccurrenceSpecification1" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="d6a3d831-11c3-458d-b779-62c87c360bc0" LastKnownName="MessageOccurrenceSpecification2" />
+            </receiveEvent>
+          </message>
+          <message Id="472716ca-709c-439a-a1e7-924a18760288" name="CreatePlayer(&quot;Netflix&quot;)" messageKind="Complete" messageSort="SynchCall" createSelfMessage="false">
+            <elementDefinition Id="ac9626c4-0ccc-431d-b6c5-726de35f10d7" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="7f583569-ae26-432d-abbb-18f48f4c3ec7" LastKnownName="MessageOccurrenceSpecification5" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="3bbdcd90-dac1-4357-9eef-f257dcfe6163" LastKnownName="MessageOccurrenceSpecification6" />
+            </receiveEvent>
+          </message>
+          <message Id="edab7ed4-fceb-485f-a0a1-bee167c99e31" name="&lt;&lt;return&gt;&gt;" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <elementDefinition Id="c2038562-9233-454f-bd9b-93022e485185" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="87cea81d-6a23-4cfa-ab44-2cd934f98ef8" LastKnownName="MessageOccurrenceSpecification7" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="50027c40-6a64-4651-a0e0-8d981198d896" LastKnownName="MessageOccurrenceSpecification8" />
+            </receiveEvent>
+          </message>
+          <message Id="6f7a1a05-160f-4a7c-8562-910839bcb8cd" name="Play()" messageKind="Complete" messageSort="SynchCall" createSelfMessage="false">
+            <elementDefinition Id="6d72482e-5e14-467b-886d-6d653eb191d3" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="ad6a821f-7b54-4f95-a73e-aff133520121" LastKnownName="MessageOccurrenceSpecification9" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="5be4d253-754b-4a60-86f3-138e9358139d" LastKnownName="MessageOccurrenceSpecification10" />
+            </receiveEvent>
+          </message>
+          <message Id="c13a6e3f-9ffe-4380-8175-9be205a56fb4" name="&lt;&lt;return&gt;&gt;" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <elementDefinition Id="2fba7de9-85c8-42b4-8fe6-6fcfc6ba714d" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="3b50980c-520b-40d1-aff2-67c93ba23340" LastKnownName="MessageOccurrenceSpecification11" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="e0120635-c677-4478-ba92-d4f64f686a86" LastKnownName="MessageOccurrenceSpecification12" />
+            </receiveEvent>
+          </message>
+          <message Id="c2a523be-0294-42de-a1cb-c5bc4f7a5c42" name="&lt;&lt;return&gt;&gt;" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <elementDefinition Id="ec2e1f0e-7c19-4f49-a7ac-ef4ead40b2bc" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="cdafb328-f53d-4e88-a247-6675aae56855" LastKnownName="MessageOccurrenceSpecification3" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="b7ecb6e4-0402-4817-9548-b107ffebd46e" LastKnownName="MessageOccurrenceSpecification4" />
+            </receiveEvent>
+          </message>
+        </messages>
+        <ownedAttributesInternal>
+          <property Id="3e1e65a2-aa57-433e-83a3-6d6caa65276f" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="66d8d1b8-fa93-435a-8d52-4e0aae132d2f" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="8711f8c3-1966-46fa-9f4b-e5ab9daa81d9" LastKnownName="Consumer" />
+            </type_NamedElement>
+          </property>
+          <property Id="12642513-d82c-406b-9fa3-88f5850e77e1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="bd3446cc-d017-4bff-9d15-73c7647f603a" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="d94dc39a-7ea0-47b2-80af-3ccfe9db8312" LastKnownName="MovieFacade" />
+            </type_NamedElement>
+          </property>
+          <property Id="4488c5f4-c458-4c45-8d68-8cbf6b6755a0" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="4510cabc-075d-4ce5-be08-05a01a0fb7bf" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="ee17e07d-260a-4e36-a7ed-8b2c9f890531" LastKnownName="PlayerFactory" />
+            </type_NamedElement>
+          </property>
+          <property Id="957cda99-a836-4dec-b9a0-75b45afb5dce" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="89432103-3880-48f2-a643-40e999e8be24" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="88cd1786-c651-431e-ac84-c043aa6251d8" LastKnownName="IPlayer" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="8711f8c3-1966-46fa-9f4b-e5ab9daa81d9" name="Consumer" isAbstract="false" isLeaf="false" cachedFullName="MovieModel::Consumer">
+        <elementDefinition Id="d459027e-a16c-4fc7-b6a0-5c0c26135278" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="d94dc39a-7ea0-47b2-80af-3ccfe9db8312" name="MovieFacade" isAbstract="false" isLeaf="false" cachedFullName="MovieModel::MovieFacade">
+        <elementDefinition Id="580e51d4-9c1d-487c-942e-c8d05b622860" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="ee17e07d-260a-4e36-a7ed-8b2c9f890531" name="PlayerFactory" isAbstract="false" isLeaf="false" cachedFullName="MovieModel::PlayerFactory">
+        <elementDefinition Id="2b1055f6-3755-463c-9ada-2ba5a89c569f" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="88cd1786-c651-431e-ac84-c043aa6251d8" name="IPlayer" isAbstract="false" isLeaf="false" cachedFullName="MovieModel::IPlayer">
+        <elementDefinition Id="3f0bea3e-947f-4dfa-96dc-e041ac972acc" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="82cf29e0-66f2-48aa-80f4-2d38b0ad1ced" name="ExecutionEvent">
+        <elementDefinition Id="3c3e669b-6964-4b07-b2a6-34a137393a54" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="a7ba6148-3880-4a7e-a84e-2d9471bd5045" name="ExecutionEvent">
+        <elementDefinition Id="7474fce3-1b5c-469f-8a2a-f8ff6da9dc47" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="5639fffa-8502-4fd5-be51-e4c46e1a4c96" name="ExecutionEvent">
+        <elementDefinition Id="bbc18313-f48f-4f30-848e-18cff27617e1" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="e37dfa76-d2b9-4524-b4ab-ba1daa9dd7b3" name="ExecutionEvent">
+        <elementDefinition Id="f52e7d4c-3385-480f-b7c5-d7d39ca3184f" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="19508749-ae31-4b24-9d98-c1cd5d7a921b" name="ExecutionEvent">
+        <elementDefinition Id="278a5c2e-ff35-4c8b-a681-7e761d74d6fd" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="38a59d0d-d1ec-4856-969a-f8a848d25864" name="ExecutionEvent">
+        <elementDefinition Id="9ef5a23d-8479-4bef-8b27-1be2ea87054e" />
+      </executionEvent>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="19304eac-6c98-4977-91f3-cbe0dd335deb" name="MovieModel">
+    <elementDefinition Id="2b88072f-10ce-469e-ae6b-4c3c57d06502" />
+    <profileInstances>
+      <packageHasProfileInstances Id="d09248b4-a0f3-46a8-967c-b35d8af19b30">
+        <profileInstance Id="d3375940-dbe7-4180-aaf6-278b76a26069" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="e955d3ca-8b9c-4bc0-b198-c14031fec485">
+        <profileInstance Id="152d5b95-5de5-4cc6-a429-49b57d8e2582" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="a95c23a3-c3f7-406a-b018-620149a9a151">
+        <profileInstance Id="cdee35cd-69a1-462c-8f83-b4f8d0d1542a" name="CSharpProfile">
+          <elementDefinition Id="44b552aa-4edd-4a40-8957-8e83d92e24d3" />
+        </profileInstance>
+        <elementDefinition Id="3cba7886-7e2b-4777-8cdc-2fc88c06dc81" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="0308d942-e8c8-475d-8286-69f0d4fcfdfb">
+        <profileInstance Id="55165c12-5984-4fd5-952d-d95fd1db3f92" name="TextTemplateBindings">
+          <elementDefinition Id="a25b16b6-a6f2-485e-8684-a5a616a65d09" />
+        </profileInstance>
+        <elementDefinition Id="1acc1cf6-1d64-4337-8510-8f13844edde3" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</SequenceDesignerModel>
